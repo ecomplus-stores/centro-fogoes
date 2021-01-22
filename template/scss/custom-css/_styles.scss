@@ -1,1 +1,27 @@
 // Add your custom CSS here.
+.header {
+  background: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  @media (min-width: 576px) {
+      .header__logo {
+          max-width: 400px;
+          max-height: 90px;
+      }
+  }
+}
+
+#menu-horizontal {
+  background: #dcdcdc !important;
+  padding: 7px;
+  color: #000 !important;
+}
+
+.top-bar {
+  background: #dcdcdc;
+  * {
+    color: #000;  
+  }
+}

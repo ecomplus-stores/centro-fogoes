@@ -268,9 +268,9 @@ if (header.categories_list) {
     </div>
   </div>
   <% if (categories && categories.length) { %>
-      <nav id="menu" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <nav id="menu-horizontal" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
         <% categories.forEach(({ slug, name, icon }) => { %>
-          <a style="padding: 7px; color: #fff" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
             <% if (icon) { %>
               <span class="nav__item-icon" style="display: block">
                 <img
