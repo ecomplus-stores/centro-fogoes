@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@ecomplus/storefront-template": "^2.0.0-beta.111",
-    "@netlify/zip-it-and-ship-it": "^1.4.0"
+    "@netlify/zip-it-and-ship-it": "^1.4.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.13"

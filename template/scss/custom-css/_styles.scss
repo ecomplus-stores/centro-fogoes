@@ -6,10 +6,26 @@
   padding-bottom: 0;
   border-bottom: none;
   @media (min-width: 576px) {
-      .header__logo {
+      &__logo {
           max-width: 400px;
           max-height: 90px;
+          padding: 5px;
       }
+  }
+  &__search-btn {
+    border-left: 1px solid #000;
+    i {
+      color: #000;
+    }
+  }
+
+  &__toggler-icon {
+    color: #ffa500
+  }
+
+  &__search {
+    border: 1px solid #000;
+    border-radius: 20px;
   }
 }
 
@@ -22,6 +38,26 @@
 .top-bar {
   background: #dcdcdc;
   * {
-    color: #000;  
+    color: #000;
   }
+}
+
+#user-button i, #cart-button i {
+  color: #ffa500
+}
+
+.footer {
+  border-top: none;
+  background: #dcdcdc;
+  font-weight: normal;
+  &__title {
+    color: #000;
+  }
+  & h4 {
+    font-size: 13px;
+  }
+}
+
+.page-title__head h1 {
+  color: #ffa500
 }
