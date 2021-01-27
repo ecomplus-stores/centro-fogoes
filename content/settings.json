@@ -1,22 +1,23 @@
 {
-  "store_id": 1215,
-  "name": "centro-fogoes",
   "domain": "centro-fogoes.netlify.app",
-  "short_name": "centro-fogoes",
-  "description": "centro-fogoes",
+  "currency_symbol": "R$",
   "primary_color": "#313131",
-  "secondary_color": "#e36159",
-  "bg_color": "#fff",
   "theme": {
-    "bootswatch": "_"
+    "bootswatch": "_",
+    "custom": "_"
   },
+  "bg_color": "#fff",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "centro-fogoes",
+  "short_name": "centro-fogoes",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#e36159",
+  "icon": "blob:https://centro-fogoes.netlify.app/85203489-9c5a-4970-bdb0-65c0dbdaccf4",
+  "store_id": 1215,
+  "description": "centro-fogoes",
+  "large_icon": "/img/uploads/logo.png"
 }
