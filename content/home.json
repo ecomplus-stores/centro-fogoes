@@ -43,6 +43,13 @@
       "type": "page-title",
       "title": "Centro Fogões",
       "description": "Encontre aqui peças para panelas, peças para fogões, utilidades domésticas e muito mais! Os melhores preços e condições da internet!"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6006106269274c73fcf77f23:categories:Atlas:/atlas/"
     }
   ]
 }
