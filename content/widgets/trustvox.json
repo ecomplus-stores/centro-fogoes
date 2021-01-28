@@ -1,11 +1,11 @@
 {
   "pkg": "@ecomplus/widget-trustvox",
-  "active": false,
+  "active": true,
   "desktopOnly": false,
   "enableCheckout": false,
   "disablePages": true,
   "options": {
-    "trustvoxStoreId": ""
+    "trustvoxStoreId": "3116"
   },
   "bodyAppend": "src/append/body",
   "productDescriptionAppend": "src/append/product-block",
