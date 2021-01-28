@@ -67,7 +67,7 @@ background: #4e7d02;
 border-color: #4e7d02;
 }
 
-.share-network-whatsapp, .product__short-stock {
+#product-actions .share, .product__short-stock, #product-description p.lead > a, .login-modal__btn--facebook,.login-modal__btn--google, .login-modal__btn--windowslive, .login__oauth  {
   display: none;
 }
 
