@@ -151,3 +151,8 @@ border-color: #4e7d02;
 .order-info__toggle {
 display: none
 }
+@media(max-width: 767px) {
+  .header__toggler-icon::after {
+    content: " Menu"
+  }
+}
