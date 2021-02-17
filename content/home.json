@@ -28,6 +28,11 @@
       ]
     },
     {
+      "type": "page-title",
+      "title": "Peças para Fogão",
+      "description": ""
+    },
+    {
       "type": "info-bar",
       "enabled": false
     },
