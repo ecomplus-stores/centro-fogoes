@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "type": "custom-content",
+      "markdown": "***Atenção**! É imprescindível ler a Descrição do Produto, Pois, contém informações relevantes para finalizar a compra!  Em caso de maiores dúvidas nos contate via WhatsApp!*"
+    },
+    {
       "type": "product-description",
       "enabled": true
     },
