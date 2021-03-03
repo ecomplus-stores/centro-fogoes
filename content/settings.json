@@ -8,8 +8,8 @@
   },
   "bg_color": "#fff",
   "logo": "/img/uploads/logo.png",
-  "name": "centro-fogoes",
-  "short_name": "centro-fogoes",
+  "name": "Centro Fogões",
+  "short_name": "Centro Fogões",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,6 +18,6 @@
   "secondary_color": "#e36159",
   "icon": "/img/uploads/logo-imagem-sem-fundo.png",
   "store_id": 1215,
-  "description": "centro-fogoes",
+  "description": "Encontre aqui peças para panelas, peças para fogões, utilidades domésticas e muito mais! Os melhores preços e condições da internet!",
   "large_icon": "/img/uploads/logo.png"
 }
