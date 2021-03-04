@@ -163,3 +163,7 @@ display: none
 .product-card__name {
     --max-lines: 4 !important;
 }
+.product-card__buy button:hover, .product__buy button:hover, .minicart__btn-checkout, .minicart__btn-checkout:hover {
+    background: #4e7d02;
+    border-color: #4e7d02;
+}
