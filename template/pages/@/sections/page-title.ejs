@@ -11,9 +11,29 @@ if (title) {
           alt="<%= _.state.logo.alt %>"
         >
       <% } %>
-      <h1 class="my-0">
-        <%= title %>
-      </h1>
+      <ul>
+        <li>
+          <h1 class="my-0">
+            <a href="/pecas-para-fogao/">
+              <%= title %>
+            </a>
+          </h1>
+        </li>
+        <li>
+          <h2>
+            <a href="/pecas-para-panela/">
+              Peças para Panela
+            </a>
+          </h2>
+        </li>
+        <li>
+          <h2>
+            <a href="/utilidades-domesticas/">
+              Utilidades Domésticas
+            </a>
+          </h2>
+        </li>
+      </ul>
     </div>
     <%
     const description = opt.description || _.state.short_description
