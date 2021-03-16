@@ -226,7 +226,7 @@ order: 8
 }
 }
 #categories-row {
-  a {
+  a, h1, h2 {
     font-size: calc(1.325rem + .9vw) !important;
     color: orange !important;
   }
@@ -234,8 +234,8 @@ order: 8
      list-style: none;
      display: flex;
      flex-wrap: nowrap;
-     overflow-x: auto;
      @media(max-width: 767px) {
+            overflow-x: auto;
        li {
          max-width: 100%;
          flex: 0 0 100%;
