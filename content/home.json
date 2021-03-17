@@ -27,9 +27,10 @@
         }
       ]
     },
-    {
-      "type": "custom-html",
-      "html": "<div id=\"categories-row\" class=\"page-title container\"><div class=\"row\"><ul><li><h1><a href=\"/pecas-para-fogao/\">Peças para Fogão</a></h1></li><li><h2><a href=\"/pecas-para-panela/\">Peças para Panela</a></h2></li><li><h2><a href=\"/utilidades-domesticas/\">Utilidades Domésticas</a></h2></li></ul></div></div>"
+    {      
+      "type": "page-title",
+      "title": "Peças para Fogão",
+      "description": ""
     },
     {
       "type": "info-bar",
