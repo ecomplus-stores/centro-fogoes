@@ -275,3 +275,6 @@ order: 8
      justify-content: center;
    }
  }
+ .shipping-calculator__services .list-group .active .shipping-calculator__option:after {
+    content: url(/img/uploads/check-menor.png);
+}
