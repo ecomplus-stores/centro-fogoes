@@ -225,56 +225,6 @@ order: 8
   order: 7
 }
 }
-#categories-row {
-  a, h1, h2 {
-    font-size: calc(1.325rem + .9vw) !important;
-    color: orange !important;
-  }
-  ul {
-     list-style: none;
-     display: flex;
-     flex-wrap: nowrap;
-     @media(max-width: 767px) {
-            overflow-x: auto;
-       li {
-         max-width: 100%;
-         flex: 0 0 100%;
-         &:nth-child(2), &:nth-child(1) {
-           &::after {
-             content: '+ opções, arraste para o lado';
-             position: relative;
-             font-size: .7rem;
-             padding-top: .5rem;
-           }
-         }
-         h1, h2 {
-           text-align: center
-         }
-       }
-     }
-     @media(min-width: 767px) {
-       li {
-         & > {
-           h1 {
-             &:after {
-               content: ', '
-             }
-           }
-         }
-        &:nth-child(2) {
-          h2 {
-            &::after {
-              content: '\00a0 e\00a0'
-            }
-          }
-        }
-       }
-     }
-   }
-   .row {
-     justify-content: center;
-   }
- }
  .shipping-calculator__services .list-group .active .shipping-calculator__option:after {
     content: url(/img/uploads/check-menor.png);
 }
