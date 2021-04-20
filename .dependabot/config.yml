@@ -9,28 +9,18 @@ update_configs:
       - "automerge"
     allowed_updates:
       - match:
-          dependency_name: "@ecomplus/storefront-template"
-      - match:
-          update_type: "security"
-    automerged_updates:
-      - match:
           update_type: "in_range"
     commit_message:
       prefix: "fix"
       include_scope: true
 
   - package_manager: "javascript"
-    directory: "/.netlify/functions/ssr"
+    directory: "/.functions"
     update_schedule: "live"
     default_labels:
       - "dependencies"
       - "automerge"
     allowed_updates:
-      - match:
-          dependency_name: "@ecomplus/storefront-renderer"
-      - match:
-          update_type: "security"
-    automerged_updates:
       - match:
           update_type: "in_range"
     commit_message:
