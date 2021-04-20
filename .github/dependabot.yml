@@ -5,6 +5,9 @@ updates:
     directory: "/"
     allow:
       - dependency-name: "@ecomplus/*"
+    ignore:
+      - dependency-name: "@ecomplus/*"
+        versions: [">2"]
     schedule:
       interval: "daily"
 
@@ -14,10 +17,14 @@ updates:
     schedule:
       interval: "daily"
     allow:
-      - dependency-type: "production"
+      - dependency-type: "direct"
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "@ecomplus/storefront-template"
+        versions: [">2"]
+      - dependency-name: "firebase-tools"
+        versions: [">9"]
+      - dependency-name: "@netlify/zip-it-and-ship-it"
+      - dependency-name: "browser-sync"
     commit-message:
       prefix: "fix"
       include: "scope"
@@ -28,10 +35,14 @@ updates:
     schedule:
       interval: "daily"
     allow:
-      - dependency-type: "production"
+      - dependency-type: "direct"
     ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "@ecomplus/storefront-renderer"
+        versions: [">2"]
+      - dependency-name: "firebase-admin"
+        versions: [">9"]
+      - dependency-name: "firebase-functions"
+        versions: [">3"]
     commit-message:
       prefix: "[skip ci] chore"
       include: "scope"
