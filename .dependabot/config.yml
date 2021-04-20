@@ -1,28 +1,26 @@
-version: 1
+version: 2
 
-update_configs:
-  - package_manager: "javascript"
+updates:
+  - package-ecosystem: npm
     directory: "/"
-    update_schedule: "live"
-    default_labels:
-      - "dependencies"
-      - "automerge"
-    allowed_updates:
-      - match:
-          update_type: "in_range"
+    open-pull-requests-limit: 2
+    schedule:
+      interval: "live"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     commit_message:
       prefix: "fix"
       include_scope: true
 
-  - package_manager: "javascript"
+  - package-ecosystem: npm
     directory: "/.functions"
-    update_schedule: "live"
-    default_labels:
-      - "dependencies"
-      - "automerge"
-    allowed_updates:
-      - match:
-          update_type: "in_range"
+    open-pull-requests-limit: 1
+    schedule:
+      interval: "live"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     commit_message:
       prefix: "[skip ci] chore"
       include_scope: true
