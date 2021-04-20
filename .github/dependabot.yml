@@ -3,24 +3,28 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: "/"
-    open-pull-requests-limit: 2
-    schedule:
-      interval: "live"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
-    commit_message:
-      prefix: "fix"
-      include_scope: true
-
-  - package-ecosystem: npm
-    directory: "/.functions"
     open-pull-requests-limit: 1
     schedule:
       interval: "live"
+    allow:
+      - dependency-type: "production"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    commit_message:
+    commit-message:
+      prefix: "fix"
+      include: "scope"
+
+  - package-ecosystem: npm
+    directory: "/.functions"
+    open-pull-requests-limit: 3
+    schedule:
+      interval: "live"
+    allow:
+      - dependency-type: "production"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    commit-message:
       prefix: "[skip ci] chore"
-      include_scope: true
+      include: "scope"
