@@ -10,16 +10,17 @@ update_configs:
     allowed_updates:
       - match:
           dependency_name: "@ecomplus/storefront-template"
+      - match:
+          update_type: "security"
     automerged_updates:
       - match:
-          dependency_name: "@ecomplus/storefront-*"
           update_type: "in_range"
     commit_message:
       prefix: "fix"
       include_scope: true
 
   - package_manager: "javascript"
-    directory: "/.functions"
+    directory: "/.netlify/functions/ssr"
     update_schedule: "live"
     default_labels:
       - "dependencies"
@@ -27,9 +28,10 @@ update_configs:
     allowed_updates:
       - match:
           dependency_name: "@ecomplus/storefront-renderer"
+      - match:
+          update_type: "security"
     automerged_updates:
       - match:
-          dependency_name: "@ecomplus/storefront-*"
           update_type: "in_range"
     commit_message:
       prefix: "[skip ci] chore"
