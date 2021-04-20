@@ -1,11 +1,18 @@
 version: 2
 
 updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    allow:
+      - dependency-name: "@ecomplus/*"
+    schedule:
+      interval: "daily"
+
   - package-ecosystem: npm
     directory: "/"
     open-pull-requests-limit: 1
     schedule:
-      interval: "live"
+      interval: "daily"
     allow:
       - dependency-type: "production"
     ignore:
@@ -19,7 +26,7 @@ updates:
     directory: "/.functions"
     open-pull-requests-limit: 3
     schedule:
-      interval: "live"
+      interval: "daily"
     allow:
       - dependency-type: "production"
     ignore:
