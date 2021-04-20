@@ -44,5 +44,5 @@ updates:
       - dependency-name: "firebase-functions"
         versions: [">=4"]
     commit-message:
-      prefix: "[skip ci] chore"
+      prefix: "chore"
       include: "scope"
