@@ -232,3 +232,10 @@ order: 8
   background: #06D755;
   border-color: #06D755;
 }
+#product-payment-header span {
+  font-size: 0
+}
+#product-payment-header span:after {
+  font-size: 1rem !important;
+  content: "Ver Formas de Pagamento"
+}
