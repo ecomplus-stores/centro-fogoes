@@ -176,7 +176,6 @@ if (header.categories_list) {
           >
             <i class="fas fa-search"></i>
           </button>
-
           <a
             id="user-button"
             class="btn btn-lg"
@@ -184,8 +183,10 @@ if (header.categories_list) {
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
-            Entrar / Cadastrar
+          <i class="fas fa-user"></i>
+          <span id="name" class="d-none d-md-inline">
+            <strong id="nameIf"></strong>
+          </span>
           </a>
           <a
             id="cart-button"

@@ -1,5 +1,5 @@
 {
   "css": "/*Cor Botao comprar pagina do produto */\n.product__buy button {\ncolor: #ffffff;\nbackground-color: #5f9903;\nborder-color: #5f9903;\nwidth: 100%;\n}\n.product__buy button:hover {\nbackground: #4e7d02;\nborder-color: #4e7d02;\n}\n\n/*Cor botao comprar pagina inicial*/\n.product-card__buy button {\nbackground: #4e7d02;\nborder-color: #4e7d02;\n}\n\n/*Borda arrendodada do botão*/\n.product__buy button, .product-card__buy button {\n   border-radius: 30px\n}",
-  "html_head": "",
+  "html_head": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link href=\"https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap\" rel=\"stylesheet\">",
   "html_body": "<!-- Start of CartStack API Script -->\n<script data-cfasync=\"false\" async=\"true\" id=\"cartstack\" src=\"https://app.cartstack.com.br/activeAPI/load.js\" type=\"text/javascript\"></script>\n<!-- End of CartStack API Script -->"
 }
