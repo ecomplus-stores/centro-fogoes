@@ -27,11 +27,6 @@
         }
       ]
     },
-    {      
-      "type": "page-title",
-      "title": "Peças para Fogão",
-      "description": ""
-    },
     {
       "type": "info-bar",
       "enabled": false
@@ -78,6 +73,10 @@
       "limit": 12,
       "page": 1,
       "collection_id": "6006106669274c73fcf77f2e:categories:Fischer:/fischer/"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div id=\"categories-row\" class=\"page-title container\"><div class=\"row\"><ul><li><h1><a href=\"/pecas-para-fogao/\">Peças para Fogão</a></h1></li><li><h2><a href=\"/pecas-para-panela/\">Peças para Panela</a></h2></li><li><h2><a href=\"/utilidades-domesticas/\">Utilidades Domésticas</a></h2></li></ul></div></div>"
     }
   ]
 }
