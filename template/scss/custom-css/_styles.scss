@@ -338,3 +338,10 @@ order: 8
      margin-top: 2rem;
    }
  }
+.account-form .btn.btn-lg.btn-primary {
+  font-size: 0px
+}
+.account-form .btn.btn-lg.btn-primary:after {
+  content: 'Prosseguir';
+  font-size: 1.25rem !important;
+}
