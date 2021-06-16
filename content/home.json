@@ -76,7 +76,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div id=\"categories-row\" class=\"page-title container\"><div class=\"row\"><ul><li><h1><a href=\"/pecas-para-fogao/\">Peças para Fogão</a></h1></li><li><h2><a href=\"/pecas-para-panela/\">Peças para Panela</a></h2></li><li><h2><a href=\"/utilidades-domesticas/\">Utilidades Domésticas</a></h2></li></ul></div></div>"
+      "html": "<div id=\"categories-row\" class=\"page-title container\"><div class=\"row\"><ul><li><a href=\"/pecas-para-fogao/\"><h1>Peças para Fogão</h1></a></li><li><a href=\"/pecas-para-panela/\"><h2>Peças para Panela</h2></a></li><li><a href=\"/utilidades-domesticas/\"><h2>Utilidades Domésticas</h2></a></li></ul></div></div>"
     }
   ]
 }
