@@ -333,3 +333,8 @@ order: 8
   background: #06D755;
   border-color: #06D755; 
  }
+ @media(max-width: 767px) {
+   #categories-row {
+     margin-top: 2rem;
+   }
+ }
