@@ -288,6 +288,7 @@ order: 8
      list-style: none;
      display: flex;
      flex-wrap: nowrap;
+     padding: 0px;
      @media(max-width: 767px) {
        li {
          a, h1, h2 {
