@@ -15,6 +15,12 @@ if (maintenance.active) {
 %>
 
 <script>
+if (location.pathname !== '/pages/loja-em-manutencao') {
+  location.href = 'https://www.centrofogoes.com.br/pages/loja-em-manutencao';
+}
+</script>
+
+<script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').then(registration => {
       console.log('SW registered: ', registration)
